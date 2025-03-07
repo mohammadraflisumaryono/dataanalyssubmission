@@ -131,6 +131,3 @@ Proyek ini dilisensikan di bawah [MIT License](LICENSE).
 
 Jika Anda ingin berkontribusi pada proyek ini, silakan buka **issue** atau ajukan **pull request**.
 
----
-
-Dengan `README.md` ini, Anda dapat memberikan gambaran yang jelas tentang proyek Anda kepada pengguna atau kontributor lain.
