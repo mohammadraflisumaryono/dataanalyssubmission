@@ -1,0 +1,4 @@
+install 
+
+pip install streamlit pandas matplotlib seaborn plotly numpy
+
