@@ -4,10 +4,12 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly.express as px
 import numpy as np
+import os
 
 # Load dataset yang sudah dibersihkan
-day_clean_df = pd.read_csv("./day_clean.csv")
-hour_clean_df = pd.read_csv("./hour_clean.csv")
+day_clean_df = pd.read_csv(os.path.join(os.path.dirname(__file__), "day_clean.csv"))
+hour_clean_df = pd.read_csv(os.path.join(os.path.dirname(__file__), "hour_clean.csv"))
+
 
 # Judul Dashboard
 st.set_page_config(page_title="Bike Sharing Dashboard", page_icon="🚴", layout="wide")
